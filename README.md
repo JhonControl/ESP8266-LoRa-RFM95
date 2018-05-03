@@ -1,19 +1,12 @@
-# ESP-IRCcontrol v1.0 ESP8266 from the Internet
+# LoRa Communication ESP8266 12E with Radios RFM95
 
 Version 1.0   Date 02-05-2018   [PDAControl](http://pdacontrolen.com)
-
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA;
-sin siquiera la garantía implícita de COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR.
 
 ![alt text](http://pdacontroles.com/wp-content/uploads/2018/05/ESP8266_RFM95_1-.png "ESP-LoRa")
 
 ## Description
 
-Basic Communication LoRa Using 2 Modules ESP8266 and 2 Radios LoRa RFM95.
+Basic Communication LoRa Using 2 Modules ESP8266 and 2 Radios LoRa RFM95 to 915.0 MHz.
 
 Contains 2 Folders:
 
@@ -24,7 +17,7 @@ Contains 2 Folders:
 
 
 ## Descripción
-Comunicación básica LoRa Utilizando 2 Modulos ESP8266 y 2 Radios LoRa RFM95.
+Comunicación básica LoRa Utilizando 2 Modulos ESP8266 y 2 Radios LoRa RFM95 a 915.0 MHz.
 
 Contiene 2 Carpetas:
 
@@ -55,7 +48,7 @@ Thanks for contributing
 
 * [2 ESP8266 12E NodeMCU](http://s.click.aliexpress.com/e/b6QNZfy) - Module Espressif
 * [2 Radio RFM95 ,in my case 915.0 MHz ](http://s.click.aliexpress.com/e/Be2rrvB) - Radio LoRa
-* [2 white PCBs Adapters for ESP8266 12E/F](http://s.click.aliexpress.com/e/mAIA6mA) - Module Espressif
+* [2 white PCBs Adapters for ESP8266 12E/F](http://s.click.aliexpress.com/e/mAIA6mA) - PCB's
 * 2 Protoboard
 * Wire antenna, UTP cable, calculate length below
 
@@ -65,7 +58,6 @@ Thanks for contributing
 ![alt text](http://pdacontroles.com/wp-content/uploads/2018/03/LoRA_esp8266_PDAControl_2.jpg "mounting")
 
 ## Connections / Conexiones
-Sensors:
 
 ```
    ESP8266      -  RFM95/96
@@ -76,17 +68,16 @@ Sensors:
 	Gpio05/D1   - DIO0
 	Gpio02/D4   - DIO1
 	Gpio16/D0   - RST
-	VCC            - 3.3V
-	GND           - GND
+	VCC         - 3.3V
+	GND         - GND
 ```
         
-
 
 
 # Documentation / Documentación 
 * Read Considerations, Recommendations and Suggestions complete documentation of the project in [Communication LoRa ESP8266 & Radio RFM95 #1](http://pdacontrolen.com/comunication-lora-esp8266-radio-rfm95-1/). 
 
-* Leer Consideraciones, Recomendaciones y sugerencias cocumentacion Completa del proyecto en  [Comunicación LoRa ESP8266 & Radio RFM95 #1](http://pdacontroles.com/comunicacion-lora-esp8266-radio-rfm96-1/). 
+* Leer Consideraciones, Recomendaciones y sugerencias documentacion Completa del proyecto en  [Comunicación LoRa ESP8266 & Radio RFM95 #1](http://pdacontroles.com/comunicacion-lora-esp8266-radio-rfm96-1/). 
 
 # Donations / Donaciones 
 Collaborate this project and other projects in [PDAControl](http://pdacontrolen.com)  via [Paypal](https://www.paypal.me/pdacontrol). 
